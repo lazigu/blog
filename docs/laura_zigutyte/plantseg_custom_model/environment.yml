@@ -1,0 +1,20 @@
+name: plantseg
+
+channels:
+  - awolny
+  - lcerrone
+  - pytorch
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - ocl-icd-system
+  - cupy
+  - pytorch=1.12.1 
+  - torchvision=0.13.1 
+  - torchaudio=0.12.1 
+  - cudatoolkit=11.3
+  - plantseg
+  - tqdm
+  - natsort
+  - scikit-image
